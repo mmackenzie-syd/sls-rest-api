@@ -14,7 +14,7 @@ phases:
     on-failure: ABORT
     commands:
       - echo Running Tests
-      - npm Tests
+      - npm test
       - echo Packaging the service
       - serverless package --package my-artifact --stage dev
 artifacts:
